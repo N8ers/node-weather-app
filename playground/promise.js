@@ -4,6 +4,19 @@
 //promise chaining, say you wanna a take an address, turn into cooridinates
 //and take them into weather information - an example of needing to sync 2 things
 
+//What does it mean when a promise is fulfilled?
+//The action relating to the promise succeeded
+
+//What does it mean when a promise is rejected?
+//The action relating to the promise failed
+
+//What does it mean when a promise is pending?
+//The promise hasen't fulfilled or rejected yet
+
+//What does it mean when a promise is settled?
+//
+
+
 
 var asyncAdd = (a, b) => {
     return new Promise((resolve, reject) => {
